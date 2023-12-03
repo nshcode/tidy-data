@@ -1,0 +1,1 @@
+psql -U postgres -d dq -c "\copy untidy.billboard from 'billboard.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8' NULL 'NA'"
