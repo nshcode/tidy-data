@@ -1,0 +1,1 @@
+psql -U postgres -d dq -c "\copy untidy.weather from 'weather.txt' ENCODING 'UTF8'"
